@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "../style.module.css"
+import shortid from "shortid"
 
 function Form({todo, setTodo, todoList, setTodoList}) {
 
@@ -9,7 +10,9 @@ function Form({todo, setTodo, todoList, setTodoList}) {
 
     const handleSubmit = (event)=>{
         event.preventDefault();
-        setTodoList([...todoList,todo]);
+        
+        setTodoList([...todoList,{name:todo,id:shortid.generate()}]);
+        
         setTodo("");
     }
 
