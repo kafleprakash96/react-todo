@@ -36,3 +36,24 @@ body{
     font-size: 1.2em;
     margin-top: 20px;
 }
+
+.todoitem{
+    margin:auto;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.todoname{
+
+}
+.deletebutton{
+
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    height: 30px;
+    background-color: red;
+    color:white;
+    
+}
