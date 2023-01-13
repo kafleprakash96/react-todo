@@ -10,6 +10,7 @@ function Form({todo, setTodo, todoList, setTodoList}) {
     const handleSubmit = (event)=>{
         event.preventDefault();
         setTodoList([...todoList,todo]);
+        setTodo("");
     }
 
   return (
