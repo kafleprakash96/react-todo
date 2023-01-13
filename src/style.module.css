@@ -10,3 +10,29 @@ body{
     color:white;
     padding: 5px;
 }
+
+.todoform{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.todoinput{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid whitesmoke ;
+    font-size: 2em;
+    text-align: center;
+    height: 50px;
+}
+.todobutton{
+    width: 100%;
+    border: none;
+    padding: 5px;
+    height: 50px;
+    background-color: lightblue;
+    color:blue;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
